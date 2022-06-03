@@ -1,5 +1,5 @@
 public interface IGasVehicle
 {
-    double CurrentTankPercentage { get; set; }
+    double CurrentTankPercentage { get; }
     void RefuelTank();
 }

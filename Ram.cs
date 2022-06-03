@@ -4,13 +4,12 @@ namespace GarysGarage
 {
     public class Ram : IGasVehicle
     {
-        public double CurrentTankPercentage { get; set; }
+        public double CurrentTankPercentage { get; } = 100;
         public double FuelCapacity { get; set; }
 
         public void RefuelTank()
         {
             FuelCapacity = 26;
-            CurrentTankPercentage = 100;
         }
     }
 }
